@@ -64,7 +64,7 @@ describe Zip do
   it "reads an archive" do
     Zip.read(File.join(TEST_DIR, "test-string.zip")) do |zip|
       zip.entries.each do |e|
-        #pp e.path
+        pp e.path
       end
     end
   end

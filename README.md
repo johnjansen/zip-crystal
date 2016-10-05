@@ -1,5 +1,8 @@
 # zip-crystal
 
+[![CI](https://travis-ci.org/johnjansen/zip-crystal.svg?branch=master)](https://travis-ci.org/johnjansen/zip-crystal)
+
+
 Read and write zip archives natively from
 [Crystal](http://crystal-lang.org/).
 
